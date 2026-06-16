@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Checking Website</title>
+<style>
+body{
+    font-family:Segoe UI;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f8fafc;
+}
+.card{
+    text-align:center;
+}
+.loader{
+    width:60px;
+    height:60px;
+    border:6px solid #e5e7eb;
+    border-top:6px solid #2563eb;
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+    margin:auto;
+}
+@keyframes spin{
+    100%{transform:rotate(360deg);}
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <div class="loader"></div>
+    <h2>Analyzing Website...</h2>
+    <p>SecureNet Shield is checking the URL.</p>
+</div>
+
+</body>
+</html>

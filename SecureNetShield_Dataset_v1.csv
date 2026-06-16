@@ -1,0 +1,34 @@
+url,domain,url_length,has_ip,has_at,has_double_slash,has_hyphen,subdomain_count,otx_hits,virustotal_hits,abuse_score,source,label,timestamp
+https://github.com/,github.com,19,0,0,0,0,1,0,0,0,ai,safe,32:55.1
+https://one.one.one.one/login,one.one.one.one,29,0,0,0,0,3,0,0,0,ai,safe,34:09.5
+https://search.brave.com/search?q=https%3A%2F%2Fsecure-login-update-account-verification-bank-user-security-check.com%2Flogin%2Fupdate%2Faccount&source=desktop,search.brave.com,159,0,0,0,0,2,0,0,0,ai,safe,34:24.3
+https://google.com@evil.com/,google.com@evil.com,28,0,1,0,0,2,0,0,0,rule_at_symbol,malicious,43:37.3
+https://github.com@phishing.site/,github.com@phishing.site,33,0,1,0,0,2,0,0,0,rule_at_symbol,malicious,44:31.6
+https://microsoft.com@attacker.net/,microsoft.com@attacker.net,35,0,1,0,0,2,0,0,0,rule_at_symbol,malicious,44:52.1
+http://127.0.0.1/admin,127.0.0.1,22,1,0,0,0,3,0,0,0,rule_ip,malicious,45:05.2
+https://bank-security-check-user-update.com/,bank-security-check-user-update.com,44,0,0,0,1,1,0,0,0,ai,safe,49:07.8
+https://secure-login-update-account-verification.comhttps//bank-security-check-user-update.com,secure-login-update-account-verification.comhttps,94,0,0,1,1,1,0,0,0,ai,safe,51:50.3
+https://login.security.account.verify.google.com.evil-domain.com/,login.security.account.verify.google.com.evil-domain.com,65,0,0,0,1,7,0,0,0,ai,safe,53:24.9
+https://en.wikipedia.org/wiki/Chris_Messina_(inventor),en.wikipedia.org,54,0,0,0,0,2,0,0,0,ai,safe,54:30.9
+https://tinyurl.com/test,tinyurl.com,24,0,0,0,0,1,0,0,0,ai,safe,54:50.0
+https://chatgpt.com/c/6a2d683b-269c-83ea-8f4c-07589146bb00,chatgpt.com,58,0,0,0,0,1,0,0,0,ai,safe,14:31.0
+https://www.google.com/,google.com,23,0,0,0,0,2,0,0,0,ai,safe,15:23.1
+https://a.b.c.d.e.f.google.com.evil.com/,a.b.c.d.e.f.google.com.evil.com,40,0,0,0,0,9,0,0,0,ai,safe,15:47.5
+https://xn--80ak6aa92e.com/,xn--80ak6aa92e.com,27,0,0,0,1,1,0,11,0,virustotal,malicious,16:48.5
+https://example.com/login/account/update/security/password/reset/verify/user/auth/session/token/confirm,example.com,103,0,0,0,0,1,0,0,0,ai,safe,17:28.2
+http://192.168.1.1/secure-login-update,192.168.1.1,38,1,0,0,0,3,0,0,0,rule_ip,malicious,21:52.9
+http://255.255.255.255/login/verify/account,255.255.255.255,43,1,0,0,0,3,0,0,0,rule_ip,malicious,22:15.9
+https://bit.ly/secure-bank-login,bit.ly,32,0,0,0,0,1,0,0,0,ai,safe,22:48.9
+https://login.verify.account.security.bank-update-user-confirmation.com/,login.verify.account.security.bank-update-user-confirmation.com,72,0,0,0,1,5,0,0,0,ai,safe,23:09.3
+https://facebook-account-security-update-confirm-login-center.com/,facebook-account-security-update-confirm-login-center.com,66,0,0,0,1,1,0,0,0,ai,malicious,34:02.1
+https://paypal-account-security-verification-update-confirmation-center.com/,paypal-account-security-verification-update-confirmation-center.com,76,0,0,0,1,1,0,0,0,ai,safe,36:48.2
+http://paypal-account-security-verification-update-confirmation-center.com/,paypal-account-security-verification-update-confirmation-center.com,75,0,0,0,1,1,0,0,0,ai,malicious,40:04.5
+https://edition.cnn.com/,edition.cnn.com,24,0,0,0,0,2,0,0,0,ai,safe,46:08.9
+https://web.facebook.com/?_rdc=1&_rdr#,web.facebook.com,38,0,0,0,0,2,0,0,0,ai,safe,43:55.8
+https://www.netflix.com/eg-en/,netflix.com,30,0,0,0,0,2,0,0,0,ai,safe,46:07.5
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+https://mail.google.com/mail/u/0/#inbox,mail.google.com,39,0,0,0,0,2,0,0,0,ai,safe,2026-06-14 15:04:58.711403
+https://evil.com/,evil.com,17,0,0,0,0,1,0,7,0,virustotal,malicious,2026-06-14 15:05:35.691605
+https://moodle.fue.edu.eg/login/index.php,moodle.fue.edu.eg,41,0,0,0,0,3,0,0,0,ai,safe,2026-06-14 15:18:39.999554
+file:///D:/Uni/Level%204/Graduation%20Project/Secure%20Net%20Shield/chrome_extension/popup.html,,95,0,0,0,0,0,0,0,0,ai,malicious,2026-06-14 15:30:25.196054

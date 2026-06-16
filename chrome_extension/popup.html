@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>SecureNet Shield</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 320px;
+            padding: 15px;
+            font-family: "Segoe UI", sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+        }
+
+        h2 {
+            margin: 0;
+            text-align: center;
+            color: #dc2626;
+            font-size: 24px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            font-size: 12px;
+            margin-top: 4px;
+            margin-bottom: 15px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 14px;
+            padding: 14px;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .08);
+        }
+
+        .status {
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .active {
+            color: #16a34a;
+        }
+
+        .inactive {
+            color: #dc2626;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .stat-box {
+            width: 31%;
+            background: #f8fafc;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: #64748b;
+        }
+
+        .green {
+            color: #16a34a;
+        }
+
+        .red {
+            color: #dc2626;
+        }
+
+        .blue {
+            color: #2563eb;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        #lastUrl {
+            font-size: 12px;
+            color: #475569;
+            word-break: break-all;
+        }
+
+        .toggle-btn {
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+            padding: 12px;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .toggle-btn:hover {
+            opacity: .9;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 11px;
+            color: #94a3b8;
+            margin-top: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Secure AI Shield</h2>
+
+    <div class="subtitle">
+        AI Powered Protection
+    </div>
+
+    <div class="card">
+
+        <div id="statusText" class="status active">
+            🟢 Protection Active
+        </div>
+
+        <div class="stats">
+
+            <div class="stat-box">
+                <div class="stat-value blue" id="scannedCount">0</div>
+                <div class="stat-label">Scans</div>
+            </div>
+
+            <div class="stat-box">
+                <div class="stat-value green" id="safeCount">0</div>
+                <div class="stat-label">Safe</div>
+            </div>
+
+            <div class="stat-box">
+                <div class="stat-value red" id="blockedCount">0</div>
+                <div class="stat-label">Blocked</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <div class="section-title">
+            Last Scanned URL
+        </div>
+
+        <div id="lastUrl">
+            No scans yet
+        </div>
+
+    </div>
+
+    <button id="toggleBtn" class="toggle-btn">
+        Disable Protection
+    </button>
+
+    <div class="footer">
+        Version 2.0
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

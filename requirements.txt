@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+joblib
+flask
+flask-cors
+requests
+beautifulsoup4
+
+
+
+#pip install -r requirements.txt

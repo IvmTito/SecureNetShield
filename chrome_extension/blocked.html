@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security Warning</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#fff5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:600px;
+    background:white;
+    border-radius:16px;
+    padding:40px;
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+    text-align:center;
+    border-top:8px solid #dc2626;
+}
+
+.icon{
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#dc2626;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#111827;
+    margin-bottom:20px;
+}
+
+p{
+    color:#6b7280;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.warning-box{
+    background:#fee2e2;
+    color:#991b1b;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:25px;
+    font-weight:600;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+}
+
+.btn-danger{
+    background:#dc2626;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.btn-danger:hover{
+    background:#b91c1c;
+}
+
+.btn-secondary{
+    background:#f3f4f6;
+    color:#111827;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.btn-secondary:hover{
+    background:#e5e7eb;
+}
+
+.footer{
+    margin-top:25px;
+    color:#9ca3af;
+    font-size:13px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="icon">
+        🚨
+    </div>
+
+    <h1>Dangerous Website Detected</h1>
+
+    <h2>Access Blocked</h2>
+
+    <div class="warning-box">
+        Our phishing detection engine identified this website as potentially harmful.
+    </div>
+
+    <p>
+        This website may attempt to steal passwords, banking information,
+        personal data, or install malicious software on your device.
+    </p>
+
+    <div class="buttons">
+
+        <button
+            id="backBtn"
+            class="btn-secondary">
+            Go Back
+        </button>
+
+        <button
+            id="continueBtn"
+            class="btn-danger">
+            Continue Anyway
+        </button>
+
+    </div>
+
+    <div class="footer">
+        SecureNet Shield
+    </div>
+
+</div>
+
+<script src="blocked.js"></script>
+
+</body>
+</html>
